@@ -22,12 +22,12 @@ function NewTodoForm({ addTodo }) {
       <form onSubmit={handleSubmit}>
         <label htmlFor="task">New Todo:</label>
         <input
+          id="task"
           type="text"
           placeholder="New Todo"
-          id="task"
           name="task"
-          value={task}
           onChange={handleChange}
+          value={task}
         />
         <button>Add a Todo!</button>
       </form>

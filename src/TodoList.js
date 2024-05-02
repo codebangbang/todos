@@ -23,6 +23,7 @@ function TodoList() {
     setTodos(updatedTodos);
   };
 
+
   const todoParts = todos.map((todo) => (
     <Todo
       remove={remove}
